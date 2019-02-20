@@ -1,0 +1,12 @@
+CISCO 7490 IP Phone
+https://www.youtube.com/watch?v=1VvtWyrFV6s
+https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7940g/product_data_sheet09186a008008884a.html
+http://web.mst.edu/~mhays/professional/CCM4-QuickStartGuide-7940&60.pdf
+
+Vertx and stuff
+https://stackoverflow.com/questions/19150811/what-is-a-fat-jar
+https://piotrminkowski.wordpress.com/2017/08/24/asynchronous-microservices-with-vert-x/
+https://dzone.com/articles/asynchronous-microservices-with-vertx
+https://www.eclipse.org/community/eclipse_newsletter/2016/october/article4.php
+http://www.sczyh30.com/vertx-blueprint-microservice/index.html
+https://www.youtube.com/watch?v=7IbdWcdlYOI
