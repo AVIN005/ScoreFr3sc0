@@ -8,4 +8,4 @@ https://auth0.com/blog/introduction-to-microservices-part-4-dependencies/
 http://websystique.com/springmvc/spring-4-mvc-helloworld-tutorial-full-example/ - Spring MVC detail basics
 
 https://stackoverflow.com/questions/1078146/re-doing-a-reverted-merge-in-git
-
+https://stackoverflow.com/questions/4114095/how-to-revert-a-git-repository-to-a-previous-commit?rq=1
