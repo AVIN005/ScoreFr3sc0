@@ -10,3 +10,5 @@ https://dzone.com/articles/asynchronous-microservices-with-vertx
 https://www.eclipse.org/community/eclipse_newsletter/2016/october/article4.php
 http://www.sczyh30.com/vertx-blueprint-microservice/index.html
 https://www.youtube.com/watch?v=7IbdWcdlYOI
+
+http://www.ntu.edu.sg/home/ehchua/programming/ -clean and clear basics
