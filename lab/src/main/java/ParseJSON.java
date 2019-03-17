@@ -1,3 +1,4 @@
+import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
@@ -38,5 +39,24 @@ public class ParseJSON {
             String post_id = no.get(i).getAsString();
             System.out.println(post_id);
         }
+
+        String json = "{\"brand\":\"Jeep\", \"doors\": 3,\"no\": [\"1\", \"2\", \"4\", \"88\"]}";
+
+        Gson gson = new Gson();
+
+        Car car = gson.fromJson(json, Car.class);
+        System.out.println(car.no.get(2));
     }
+
 }
+/*
+https://stackoverflow.com/questions/5490789/json-parsing-using-gson-for-java
+        Each time gson sees a {}, it creates a Map (actually a gson StringMap )
+
+        Each time gson sees a '', it creates a String
+
+        Each time gson sees a number, it creates a Double
+
+        Each time gson sees a [], it creates an ArrayList
+
+        You can use this facts (combined) to your advantage*/
