@@ -22,23 +22,24 @@ public class ParseJSON {
             "    ]\n" +
             "}";
     public static void main(String[] args) {
-        JsonObject jsonObject = new JsonParser().parse(json).getAsJsonObject();
+        /*JsonObject jsonObject = new JsonParser().parse(json).getAsJsonObject();
 
         String pageName = jsonObject.getAsJsonObject("pageInfo").get("pageName").getAsString();
         System.out.println(pageName);
 
-        JsonArray arr = jsonObject.getAsJsonArray("posts");
+        njsnarya arr = jsonObject.getAsJsonArray("posts");
         System.out.println(arr.size());
         for (int i = 0; i < arr.size(); i++) {
             String post_id = arr.get(i).getAsJsonObject().get("post_id").getAsString();
             System.out.println(post_id);
         }
-        JsonArray no = jsonObject.getAsJsonObject("pageInfo").getAsJsonArray("no");
+        njsnarya no = jsonObject.getAsJsonObject("pageInfo").getAsJsonArray("no");
         System.out.println(no.size());
         for (int i = 0; i < no.size(); i++) {
             String post_id = no.get(i).getAsString();
             System.out.println(post_id);
-        }
+        }*/
+
 
         String json = "{\"brand\":\"Jeep\", \"doors\": 3,\"no\": [\"1\", \"2\", \"4\", \"88\"]}";
 
